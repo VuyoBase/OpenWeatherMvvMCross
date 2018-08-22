@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#2c3e50</color>
+  <color name="colorPrimaryDark">#1B3147</color>
+  <color name="colorAccent">#3498db</color>
+  <color name="colorPrimary">#706e6e</color>
+  <color name="colorPrimaryDark">#FF7F50</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="Text_Color">#fff</color>
+  <color name="Geo_Coords">#f78400</color>
+  <color name="Row_odd">#dfdddd</color>
+  <color name="White">	#FFFFFF</color>
+  <color name="Black"> #000000</color>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="colorOrange">#fb6828</color>
+  <color name="ColorDarkGrey">#636065</color>
+  <color name="ColorLightGrey">#b5b4bb</color>
+  <color name="ColourWhite">#ffffff</color>
+</resources>
