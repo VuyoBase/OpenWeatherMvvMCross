@@ -14,6 +14,10 @@ namespace OpenWeather.Core.Services
         {
             public const String baseUrl = "http://api.openweathermap.org/data/2.5/weather?q=";
             public const String appKey = "&units=metric&type=accurate&appid=3809e9470beedea5655a60e4cd69e351";
+
+            //public const String Url = "https://api.darksky.net/forecast";
+            //public const String apiKey = "b1a55560ed685b6c716d07adcd4ebdca";
+
         }
 
         public async Task<Forecast> GetWeather(string cityName)
@@ -21,7 +25,7 @@ namespace OpenWeather.Core.Services
             //Building uri to make api request 
             Uri uri = new Uri(Constatnts.baseUrl + cityName + Constatnts.appKey);
 
-            //Intitialize Http clien
+            //Intitialize Http client
             using (var http = new HttpClient())
             {
                 //Get Response using the URi we  built
@@ -46,9 +50,5 @@ namespace OpenWeather.Core.Services
             }
         }
         
-        Task<Forecast> IWeatherService.GetWeather(string cityName)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

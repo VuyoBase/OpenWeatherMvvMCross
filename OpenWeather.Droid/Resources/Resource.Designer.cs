@@ -6680,8 +6680,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0044
 			public const int SYM = 2131492932;
 			
-			// aapt resource value: 0x7f0c00b8
-			public const int action0 = 2131493048;
+			// aapt resource value: 0x7f0c00ba
+			public const int action0 = 2131493050;
 			
 			// aapt resource value: 0x7f0c0094
 			public const int action_bar = 2131493012;
@@ -6704,17 +6704,17 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0072
 			public const int action_bar_title = 2131492978;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int action_container = 2131493045;
+			// aapt resource value: 0x7f0c00b7
+			public const int action_container = 2131493047;
 			
 			// aapt resource value: 0x7f0c0095
 			public const int action_context_bar = 2131493013;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int action_divider = 2131493052;
+			// aapt resource value: 0x7f0c00be
+			public const int action_divider = 2131493054;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int action_image = 2131493046;
+			// aapt resource value: 0x7f0c00b8
+			public const int action_image = 2131493048;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -6731,11 +6731,11 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0074
 			public const int action_mode_close_button = 2131492980;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int action_text = 2131493047;
+			// aapt resource value: 0x7f0c00b9
+			public const int action_text = 2131493049;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int actions = 2131493061;
+			// aapt resource value: 0x7f0c00c7
+			public const int actions = 2131493063;
 			
 			// aapt resource value: 0x7f0c0075
 			public const int activity_chooser_view_content = 2131492981;
@@ -6779,8 +6779,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c007b
 			public const int buttonPanel = 2131492987;
 			
-			// aapt resource value: 0x7f0c00b9
-			public const int cancel_action = 2131493049;
+			// aapt resource value: 0x7f0c00bb
+			public const int cancel_action = 2131493051;
 			
 			// aapt resource value: 0x7f0c0051
 			public const int center = 2131492945;
@@ -6797,11 +6797,11 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c008b
 			public const int checkbox = 2131493003;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int chronometer = 2131493057;
+			// aapt resource value: 0x7f0c00c3
+			public const int chronometer = 2131493059;
 			
 			// aapt resource value: 0x7f0c00a5
-			public const int city = 2131493029;
+			public const int cityName = 2131493029;
 			
 			// aapt resource value: 0x7f0c005a
 			public const int clip_horizontal = 2131492954;
@@ -6829,6 +6829,9 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7f0c002a
 			public const int dark = 2131492906;
+			
+			// aapt resource value: 0x7f0c00d1
+			public const int date_time = 2131493073;
 			
 			// aapt resource value: 0x7f0c0092
 			public const int decor_content_parent = 2131493010;
@@ -6869,8 +6872,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c003d
 			public const int end = 2131492925;
 			
-			// aapt resource value: 0x7f0c00c7
-			public const int end_padder = 2131493063;
+			// aapt resource value: 0x7f0c00c9
+			public const int end_padder = 2131493065;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int enterAlways = 2131492940;
@@ -6899,6 +6902,9 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0060
 			public const int @fixed = 2131492960;
 			
+			// aapt resource value: 0x7f0c00d0
+			public const int forecast = 2131493072;
+			
 			// aapt resource value: 0x7f0c0070
 			public const int forever = 2131492976;
 			
@@ -6920,8 +6926,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c007a
 			public const int icon = 2131492986;
 			
-			// aapt resource value: 0x7f0c00c6
-			public const int icon_group = 2131493062;
+			// aapt resource value: 0x7f0c00c8
+			public const int icon_group = 2131493064;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int icon_only = 2131492902;
@@ -6932,11 +6938,11 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0077
 			public const int image = 2131492983;
 			
-			// aapt resource value: 0x7f0c00ca
-			public const int imageView = 2131493066;
+			// aapt resource value: 0x7f0c00cf
+			public const int imageView = 2131493071;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int info = 2131493058;
+			// aapt resource value: 0x7f0c00c4
+			public const int info = 2131493060;
 			
 			// aapt resource value: 0x7f0c0063
 			public const int invisible = 2131492963;
@@ -6965,17 +6971,20 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c002c
 			public const int listMode = 2131492908;
 			
+			// aapt resource value: 0x7f0c00d2
+			public const int listView = 2131493074;
+			
 			// aapt resource value: 0x7f0c0079
 			public const int list_item = 2131492985;
 			
-			// aapt resource value: 0x7f0c00cf
-			public const int masked = 2131493071;
+			// aapt resource value: 0x7f0c00d4
+			public const int masked = 2131493076;
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int media_actions = 2131493051;
+			// aapt resource value: 0x7f0c00bd
+			public const int media_actions = 2131493053;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int message = 2131493064;
+			// aapt resource value: 0x7f0c00ca
+			public const int message = 2131493066;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int middle = 2131492926;
@@ -6998,14 +7007,14 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0021
 			public const int normal = 2131492897;
 			
-			// aapt resource value: 0x7f0c00c4
-			public const int notification_background = 2131493060;
+			// aapt resource value: 0x7f0c00c6
+			public const int notification_background = 2131493062;
 			
-			// aapt resource value: 0x7f0c00be
-			public const int notification_main_column = 2131493054;
+			// aapt resource value: 0x7f0c00c0
+			public const int notification_main_column = 2131493056;
 			
-			// aapt resource value: 0x7f0c00bd
-			public const int notification_main_column_container = 2131493053;
+			// aapt resource value: 0x7f0c00bf
+			public const int notification_main_column_container = 2131493055;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int packed = 2131492968;
@@ -7040,11 +7049,11 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0056
 			public const int right = 2131492950;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int right_icon = 2131493059;
+			// aapt resource value: 0x7f0c00c5
+			public const int right_icon = 2131493061;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int right_side = 2131493055;
+			// aapt resource value: 0x7f0c00c1
+			public const int right_side = 2131493057;
 			
 			// aapt resource value: 0x7f0c0022
 			public const int satellite = 2131492898;
@@ -7160,8 +7169,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0057
 			public const int start = 2131492951;
 			
-			// aapt resource value: 0x7f0c00ba
-			public const int status_bar_latest_event_content = 2131493050;
+			// aapt resource value: 0x7f0c00bc
+			public const int status_bar_latest_event_content = 2131493052;
 			
 			// aapt resource value: 0x7f0c008e
 			public const int submenuarrow = 2131493006;
@@ -7174,6 +7183,15 @@ namespace OpenWeather.Droid
 			
 			// aapt resource value: 0x7f0c0019
 			public const int tag_transition_group = 2131492889;
+			
+			// aapt resource value: 0x7f0c00b6
+			public const int tbData = 2131493046;
+			
+			// aapt resource value: 0x7f0c00b5
+			public const int tbName = 2131493045;
+			
+			// aapt resource value: 0x7f0c00ce
+			public const int tempareture = 2131493070;
 			
 			// aapt resource value: 0x7f0c0023
 			public const int terrain = 2131492899;
@@ -7193,17 +7211,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c00a3
 			public const int textView = 2131493027;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int textView3 = 2131493065;
-			
-			// aapt resource value: 0x7f0c00cc
-			public const int textView4 = 2131493068;
-			
 			// aapt resource value: 0x7f0c00cd
-			public const int textView6 = 2131493069;
-			
-			// aapt resource value: 0x7f0c00cb
-			public const int textView7 = 2131493067;
+			public const int textView3 = 2131493069;
 			
 			// aapt resource value: 0x7f0c00b4
 			public const int text_input_password_toggle = 2131493044;
@@ -7214,8 +7223,8 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0015
 			public const int textinput_error = 2131492885;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int time = 2131493056;
+			// aapt resource value: 0x7f0c00c2
+			public const int time = 2131493058;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int title = 2131492892;
@@ -7262,11 +7271,17 @@ namespace OpenWeather.Droid
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c00ce
-			public const int visible = 2131493070;
+			// aapt resource value: 0x7f0c00d3
+			public const int visible = 2131493075;
 			
 			// aapt resource value: 0x7f0c00a6
 			public const int weatherBtn = 2131493030;
+			
+			// aapt resource value: 0x7f0c00cc
+			public const int weather_icon = 2131493068;
+			
+			// aapt resource value: 0x7f0c00cb
+			public const int weather_location = 2131493067;
 			
 			// aapt resource value: 0x7f0c0028
 			public const int wide = 2131492904;
@@ -7463,67 +7478,70 @@ namespace OpenWeather.Droid
 			public const int design_text_input_password_icon = 2130968616;
 			
 			// aapt resource value: 0x7f040029
-			public const int notification_action = 2130968617;
+			public const int detailed_weather = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int notification_action_tombstone = 2130968618;
+			public const int notification_action = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int notification_media_action = 2130968619;
+			public const int notification_action_tombstone = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int notification_media_cancel_action = 2130968620;
+			public const int notification_media_action = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int notification_template_big_media = 2130968621;
+			public const int notification_media_cancel_action = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_template_big_media_custom = 2130968622;
+			public const int notification_template_big_media = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_template_big_media_narrow = 2130968623;
+			public const int notification_template_big_media_custom = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_big_media_narrow_custom = 2130968624;
+			public const int notification_template_big_media_narrow = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_custom_big = 2130968625;
+			public const int notification_template_big_media_narrow_custom = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_icon_group = 2130968626;
+			public const int notification_template_custom_big = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_lines_media = 2130968627;
+			public const int notification_template_icon_group = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_media = 2130968628;
+			public const int notification_template_lines_media = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_media_custom = 2130968629;
+			public const int notification_template_media = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_part_chronometer = 2130968630;
+			public const int notification_template_media_custom = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_part_time = 2130968631;
+			public const int notification_template_part_chronometer = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int select_dialog_item_material = 2130968632;
+			public const int notification_template_part_time = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_multichoice_material = 2130968633;
+			public const int select_dialog_item_material = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_singlechoice_material = 2130968634;
+			public const int select_dialog_multichoice_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int support_simple_spinner_dropdown_item = 2130968635;
+			public const int select_dialog_singlechoice_material = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int tooltip = 2130968636;
+			public const int support_simple_spinner_dropdown_item = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int WeatherDeatails = 2130968637;
+			public const int tooltip = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int WeatherDeatails = 2130968638;
 			
 			static Layout()
 			{
@@ -7561,7 +7579,7 @@ namespace OpenWeather.Droid
 		{
 			
 			// aapt resource value: 0x7f09003c
-			public const int New_Weather_App = 2131296316;
+			public const int Open_weather = 2131296316;
 			
 			// aapt resource value: 0x7f090011
 			public const int abc_action_bar_home_description = 2131296273;

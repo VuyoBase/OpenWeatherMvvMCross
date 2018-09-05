@@ -13,7 +13,8 @@ namespace OpenWeather.Core.ViewModels
     public class MainViewModel : MvxViewModel
     {
 
-        private IWeatherService _weatherService;
+        private readonly IWeatherService _weatherService;
+
         private IMvxNavigationService _navigationService;
 
         public MainViewModel(IWeatherService weatherService, IMvxNavigationService navigationService)
@@ -27,34 +28,47 @@ namespace OpenWeather.Core.ViewModels
         {
             get => _CityName;
             set => SetProperty(ref value, _CityName);
+          
         }
 
-        public MvxAsyncCommand getWeatherCommand;
+        public MvxAsyncCommand _getWeatherCommand;
 
         public IMvxAsyncCommand GetWeatherCommand
         {
             get
             {
-                return getWeatherCommand ?? (getWeatherCommand = new MvxAsyncCommand(async () => await FetchWeather()));
+                return _getWeatherCommand ??  (_getWeatherCommand = new MvxAsyncCommand(async () =>  await FetchWeather()));
             }
+        }
+
+        public object EditText {
+
+            get
+            {
+               return CityName;
+            }
+
+            set
+            {
+                ;
+            }
+
         }
 
         public async Task FetchWeather()
         {
-            var forcast = new Forecast();
-
+            //var forcast = new Forecast();
+            Console.WriteLine("Clicked");
             try
             {
-            var WeatherService = new WeatherService();
-            var WeatherDetails = await WeatherService.GetWeather(CityName);
-                Console.WriteLine(WeatherDetails.CityName);
+            var WeatherDetails = await _weatherService.GetWeather(CityName);
+                Console.WriteLine(CityName);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-        }
-
+        } 
     }
 }
 

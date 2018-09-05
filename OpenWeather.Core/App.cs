@@ -11,9 +11,22 @@ namespace OpenWeather.Core
     {
         public override void Initialize()
         {
-            Mvx.RegisterType<IWeatherService, WeatherService>();
+
+            Mvx.RegisterType<IWeatherService, WeatherService>();    
+          //  Mvx.RegisterType<IWeatherService, WeatherService>();
 
             RegisterAppStart<MainViewModel>();
+
+            //if (UserPreferences.UseDarkSky == true)
+            //{
+            //    Mvx.RegisterType<IWeatherService, DarkSkyWeatherService>();
+            //}
+            //else
+            //{
+            //    Mvx.RegisterType<IWeatherService, WeatherService>();
+            //}
+
+
         }
     }
 }

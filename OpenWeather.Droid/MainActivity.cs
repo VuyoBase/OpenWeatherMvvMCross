@@ -6,6 +6,8 @@ using MvvmCross.Droid.Support.V7.AppCompat;
 using OpenWeather.Core.ViewModels;
 using MvvmCross.Platforms.Android.Views;
 using System;
+using MvvmCross.Binding.BindingContext;
+using System.Threading.Tasks;
 
 namespace OpenWeather.Droid
 {
@@ -19,19 +21,35 @@ namespace OpenWeather.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            //Create A Button Object To Set The Event
+            //Create a Button Object To Set The Event
             Button button = FindViewById<Button>(Resource.Id.weatherBtn);
 
-            button.Click += Button_Click;
+            EditText editText = FindViewById<EditText>(Resource.Id.cityName);
+
+            var set = this.CreateBindingSet<MainActivity, MainViewModel>();
+
+            // Create your application here
+            // MvxFluent Binding
+            set.Bind(button)
+                .For("Click")
+                .To(vm => vm.GetWeatherCommand);
+
+            set.Bind(editText)
+                .For("city")
+                .To(vm => vm.EditText);
+
+            set.Apply();
+
+          //  button.Click += Button_Click;
         }
 
-        private async void Button_Click(object sender,  EventArgs e)
+        private async void Button_Click (object sender,  EventArgs e)
         {
-            EditText City = FindViewById<EditText>(Resource.Id.city);
-
-            if (!string.IsNullOrEmpty(City.Text))
+            Console.WriteLine("button clicked");
+            EditText CityName = FindViewById<EditText>(Resource.Id.cityName);
+            if (!string.IsNullOrEmpty(CityName.Text))
             {
-
+                await Task.CompletedTask;
             }
             //{
             //    FindViewById<TextView>(Resource.Id.windText).Text = weather.Wind;
